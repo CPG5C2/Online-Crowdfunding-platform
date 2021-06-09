@@ -1,0 +1,163 @@
+*{
+  font-family: Cambria;
+  box-sizing: border-box;
+}
+
+header{
+  padding: 15px;
+  background-color:#24262b;
+  color:snow;
+  text-align: center; 
+}
+
+.navbar{
+  background-color: black;
+  overflow:hidden;
+  height: 35px;
+  position:sticky;
+  padding-left: 25%;
+}
+.navbar a{
+  float:left;
+  display: block;
+  color: darkgray;
+  text-align: center;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+main{
+  background-color:whitesmoke;
+}
+
+.quote1{
+  float:left;
+  background-image: url("donate.jpg");
+  height:350px;
+  width:500px;
+  box-shadow: 0.5px 0.5px 10px 1px ;
+  padding:5px;
+  margin:10px;
+}
+
+.quote2{
+  float:left;
+  background-image: url("happy.jpg");
+  height:350px;
+  width:500px;
+  box-shadow: 0.5px 0.5px 10px 1px ;
+  padding:5px;
+  margin:10px;
+}
+
+.quotes{
+  display: inline-block;
+}
+
+.content{
+  text-align: center;
+}
+
+.content::before{
+  text-align: center;
+	content: '';
+  position:absolute;
+	left:37%;
+	top:620px;
+	background-color:gray;
+	height: 2px;
+	width: 400px;
+}
+
+/*FOOTER*/
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+  text-align: center;
+	background-color: #24262b;
+  padding: 70px 0;
+}
+.footer-col{
+	width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+  text-align: center;
+	content: '';
+  position:absolute;
+	left:30px;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	width: 200px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*FOOTER*/
+
+
+
+
+
+
+
