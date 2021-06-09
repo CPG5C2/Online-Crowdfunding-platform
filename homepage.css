@@ -15,7 +15,7 @@ header{
   overflow:hidden;
   height: 35px;
   position:sticky;
-  padding-left: 25%;
+  padding-left: 300px;
 }
 .navbar a{
   float:left;
@@ -63,6 +63,13 @@ main{
 
 .quotes{
   display: inline-block;
+  padding:220px;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  font-size: 18px;
+}
+.quotes p{
+  font-style: italic;
 }
 
 .content{
@@ -74,10 +81,104 @@ main{
 	content: '';
   position:absolute;
 	left:37%;
-	top:620px;
+	top:640px;
 	background-color:gray;
 	height: 2px;
 	width: 400px;
+}
+
+.question{
+  padding: 250px;
+  padding-top: 0%;
+  font-size: 22px;
+  padding-bottom: 0%;
+}
+
+.recoveries1{
+  float:left;
+  background-image: url("#");
+  height:350px;
+  width:350px;
+  box-shadow: 0.5px 0.5px 10px 1px ;
+  padding:5px;
+  margin:10px;
+}
+
+.recoveries2{
+  float:left;
+  background-image: url("#");
+  height:350px;
+  width:350px;
+  box-shadow: 0.5px 0.5px 10px 1px ;
+  padding:5px;
+  margin:10px;
+}
+.recoveries3{
+  float:left;
+  background-image: url("#");
+  height:350px;
+  width:350px;
+  box-shadow: 0.5px 0.5px 10px 1px ;
+  padding:5px;
+  margin:10px;
+}
+
+.recoveries{
+  display:inline-block;
+  text-align: center;
+  padding:175px;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+.charity1{
+  float:left;
+  background-image: url("#");
+  height:350px;
+  width:350px;
+  box-shadow: 0.5px 0.5px 10px 1px ;
+  padding:5px;
+  margin:10px;
+}
+
+.charity2{
+  float:left;
+  background-image: url("#");
+  height:350px;
+  width:350px;
+  box-shadow: 0.5px 0.5px 10px 1px ;
+  padding:5px;
+  margin:10px;
+}
+.charity3{
+  float:left;
+  background-image: url("#");
+  height:350px;
+  width:350px;
+  box-shadow: 0.5px 0.5px 10px 1px ;
+  padding:5px;
+  margin:10px;
+}
+
+.charity{
+  display:inline-block;
+  text-align: center;
+  padding:175px;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+.section a{
+  box-shadow:0.5px 0.5px 5px 1px;
+  text-decoration: none;
+  color:gray;
+  font-size: 18px;
+}
+
+.section a:hover{
+  box-shadow:0.5px 0.5px 5px 1px;
+  text-decoration: none;
+  color:black;
+  font-size: 18px;
 }
 
 /*FOOTER*/
@@ -154,10 +255,3 @@ ul{
 }
 
 /*FOOTER*/
-
-
-
-
-
-
-
