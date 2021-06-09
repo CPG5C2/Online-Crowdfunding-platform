@@ -5,9 +5,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@300&family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
+<style>
+*{
+  font-family: Cambria;
+  box-sizing: border-box;
+}
+header{
+  padding: 15px;
+  background-color:#24262b;
+  color:white;
+  text-align: center; 
+}
+
+.navbar{
+  background-color: black;
+  overflow:hidden;
+  height: 35px;
+  position:sticky;
+  padding-left: 300px;
+}
+.navbar a{
+  float:left;
+  display: block;
+  color: darkgray;
+  text-align: center;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -61,6 +98,23 @@ h2{
 </style>
 </head>
 <body>
+
+  <header>
+    <h1><b>ONLINE CROWDFUNDING PLATFORM</b></h1>
+ </header>
+ <nav>
+    <div class="navbar">
+       <div class="logo">
+          <a href="homepage.html"><i class="fas fa-hand-holding-usd"></i>&nbsp;CROWDFUNDING PLATFORM</a>
+       </div>         
+       <a href="homepage.html"><i class="fas fa-home"></i>&nbsp;HOME</a>
+       <a href="login.html"><i class="fas fa-sign-in-alt"></i>&nbsp;LOGIN/SIGNUP</a>
+       <a href="homepage.html"><i class="fas fa-comments"></i>&nbsp;REVIEWS</a>
+       <a href="contact.html"><i class="fas fa-phone-alt"></i>&nbsp;CONTACT US</a>
+    </div>
+    
+ </nav>
+ <br>
 
 <div class="about-section">
   <h1> Contact Us</h1>
@@ -250,8 +304,6 @@ left : 80px ;
 #btn:focus {
   outline: none ;
 }</style>
-  <a href="homepage.html"> <button id="btn" > HOME PAGE</button> </a>
-    <div class="space"></div>
 </footer>
 
 
