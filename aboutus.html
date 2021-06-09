@@ -6,13 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@300&family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
     <title>About Us</title>
 
     <style>
 
- *{
-     box-sizing: border-box;
-  }
+  *{
+  font-family: Cambria;
+  box-sizing: border-box;
+}
+
+header{
+  padding: 15px;
+  background-color:#24262b;
+  color:snow;
+  text-align: center;
+}
+
+.navbar{
+  background-color: black;
+  overflow:hidden;
+  height: 35px;
+  position:sticky;
+  padding-left: 300px;
+}
+.navbar a{
+  float:left;
+  display: block;
+  color: darkgray;
+  text-align: center;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
  body
 {
@@ -48,12 +85,29 @@
 
 </head>
 <body>
+
+    <header>
+        <h1><b>ONLINE CROWDFUNDING PLATFORM</b></h1>
+    </header>
+    <nav>
+        <div class="navbar">
+           <div class="logo">
+              <a href="homepage.html"><i class="fas fa-hand-holding-usd"></i>&nbsp;CROWDFUNDING PLATFORM</a>
+           </div>         
+           <a href="homepage.html"><i class="fas fa-home"></i>&nbsp;HOME</a>
+           <a href="login.html"><i class="fas fa-sign-in-alt"></i>&nbsp;LOGIN/SIGNUP</a>
+           <a href="homepage.html"><i class="fas fa-comments"></i>&nbsp;REVIEWS</a>
+           <a href="contact.html"><i class="fas fa-phone-alt"></i>&nbsp;CONTACT US</a>
+        </div>
+        
+    </nav>
+    <br>
+
     <div class="about-section">
         <h1> About our Website</h1>
         <h3> <bold>Our Website is one of it kind platform in India which is transforming the way people give to charities with the help of e-commerce.</bold>  </h3>
         <p>
           <p>Our Website is a unique platform that allows organizations to create campaigns for their ongoing projects. Through Our Website, NGOs display the products they are in immediate need of. Donors can choose the organization that they wish to support and donate the products they want to. The process of buying these products is extremely convenient and is the same as shopping online. Similar to online shopping once you make the payment, the products will be delivered to the organization you support either at the end of the campaign (or) once they reach the target. You will always be able to track your donation and Campaigns will keep updating the donors about the utilisation of products.</p>
-          <b><a href="homepage.html">Click here to go to Home Page</a></b>
       </div>
 
 </body>
