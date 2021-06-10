@@ -7,9 +7,12 @@
 
 <body>
     <form action="">
-        <h1>Payment form</h1>
-        <h2>Contact information</h2>
+        <h1>PAYMENT FORM</h1>
+        <hr>
         <h3>Required fields necessary (*)</h3>
+        <br>
+        <div class="contact">
+        <h2>Contact information</h2>
         <p>Name:    *<input type="text" name="name" required></p>
         <fieldset>
             <legend>Gender:*</legend>
@@ -25,7 +28,8 @@
         
     <p>Email:   *<input type="email" name="email" id="email" required></p>
     <p>Pincode: *<input type="number" name="pincode" id="pincode" required></p>
-    <hr>
+    </div>
+    <div class="payment">
     <h2>Payment information</h2>
     <p>Card Type:
         *<select name="card_type" id="card_type" required>
@@ -46,6 +50,7 @@
         CVV: *<input type="password" name="cvv" id="cvv" required>
     </p>
     <input type="submit" value="Pay Now" required>
+    </div>
 
     </form>
     
