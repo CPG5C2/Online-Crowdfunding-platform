@@ -11,7 +11,8 @@ html,body{
   place-items: center;
 }
 body{
-  background-image: url("trust.jpg");
+  background-image: url("jar.jpg");
+  background-size: 1550px 900px;
 }
 ::selection{
   background:#999;
