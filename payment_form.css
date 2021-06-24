@@ -3,55 +3,27 @@
   box-sizing: border-box;
 }
 h1{
-  background-color: black;
+  background-color: #2B7A78;
   color:snow;
   text-align: center;
-  padding:10px;
+  padding:20px;
 }
-header{
-  padding: 15px;
-  background-color:#24262b;
-  color:snow;
-  text-align: center; 
-}
-
-.navbar{
-  background-color: black;
-  overflow:hidden;
-  height: 35px;
-  position:sticky;
-  padding-left: 300px;
-}
-.navbar a{
-  float:left;
-  display: block;
-  color: darkgray;
-  text-align: center;
-  padding: 8px 20px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover{
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 8px 20px;
-  text-decoration: none;
-  font-size: 17px;
+h3{
+  font-size: 20px;
 }
 .contact{
   box-shadow: 0.5px 0.5px 5px 2px;
   padding: 15px;
   padding-top: 0%;
   padding-bottom: 2%;
-  background-color: lightgray;
+  background-color: #DEF2F1;
+  color:#2B7A78;
 }
 .payment{
   box-shadow: 0.5px 0.5px 5px 2px;
   padding: 15px;
   padding-top: 0%;
   padding-bottom: 2%;
-  background:lightgrey;
+  background:#DEF2F1;
+  color:#2B7A78;
 }
